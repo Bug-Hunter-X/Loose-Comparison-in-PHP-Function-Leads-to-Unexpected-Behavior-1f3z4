@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in PHP code caused by using loose comparison (==) instead of strict comparison (===) in an if condition. The function `my_function` is intended to return `$b` only when `$a` is exactly 0. However, due to the loose comparison, the function produces unexpected results.
